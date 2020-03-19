@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'MyApp';
-  name: string = "Eve";
+  name: string = '';
   handleChange(value :string){
     this.name = value
   }
