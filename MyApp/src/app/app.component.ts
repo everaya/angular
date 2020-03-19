@@ -11,7 +11,7 @@ export class AppComponent {
   handleChange(value :string){
     this.name = value
   }
-  handleClick(){
-    this.name = "raya"
+  handleClick(value : string){
+    console.log(value);
   }
 }
